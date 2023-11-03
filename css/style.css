@@ -16,7 +16,55 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+/*.container {
     max-width: 1200px;
     margin: 0 auto;
+}*/
+
+/* 
+   HEADER
+*/
+
+.window {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
 }
+
+.window > * {
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span {
+    color: white;
+    margin-right: 5px;
+}
+
+.fa-table-cells {
+    margin-right: 5px;
+}
+
+/* 
+   MAIN
+*/
+
+.container {
+    background-color: black;
+    height: (100vw - 100px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid green;
+}
+
